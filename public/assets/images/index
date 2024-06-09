@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecycleXpert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h1>Bienvenidos a RecycleXpert</h1>
+        <p>Tu solución en reciclaje usando IA</p>
+        <section id="informacion">
+            <h2>Contribuye al Cuidado del Medio Ambiente</h2>
+            <p>¿Te gustaría poder contribuir con el cuidado del medio ambiente? Pues nosotros somos tu mejor opción. Nos dedicamos a promover el reciclaje, para que juntos podamos proteger nuestro hogar.</p>
+        </section>
+    </section>
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos servicios avanzados de reciclaje.</p>
+        <div class="service-item">
+            <h3>Sobre nosotros</h3>
+            <img src="imagenes/cont1.png" class="contenido1" alt="Imagen de sobre nosotros">
+            <p>Nosotros brindamos un servicio completo de información sobre el reciclaje para que motivemos a más personas a realizar esta práctica.</p>
+        </div>
+        <div class="service-item">
+            <h3>Eventos</h3>
+            <img src="imagenes/cont2.png" class="contenido2" alt="Imagen de eventos">
+            <p>Mensualmente realizamos por medio de una videollamada una charla informativa con el fin de promocionar nuestra idea a los demás.</p>
+        </div>
+        <div class="service-item">
+            <h3>Reciclaje</h3>
+            <img src="imagenes/cont3.png" class="contenido3" alt="Imagen de reciclaje">
+            <p>Todo lo que necesites saber sobre el reciclaje para poder llevar a la práctica por tu cuenta.</p>
+        </div>
+        <div class="service-item">
+            <h3>IA</h3>
+            <img src="imagenes/cont4.png" class="contenido4" alt="Imagen de IA">
+            <p>Apóyate con nuestra AI la cuál te brindara de manera exacta todo acerca del reciclaje.</p>
+        </div>
+        <div class="service-item">
+            <h3>Comunícate con nosotros</h3>
+            <img src="imagenes/cont5.png" class="contenido5" alt="Imagen de contacto">
+            <p>Comunicate con nosotros de manera directa para resolver tus dudas.</p>
+        </div>
+        <div class="service-item">
+            <h3>Preguntas frecuentes</h3>
+            <img src="imagenes/cont6.png" class="contenido6" alt="Imagen de preguntas frecuentes">
+            <p>¿Tienes dudas acerca de algo? Lee las dudas más comunes entre nuestros usuarios, puede que encuentres lo que buscas.</p>
+        </div>
+    </section>
+    <section id="eventos">
+        <h2>Próximos Eventos</h2>
+        <p>Participa en nuestros eventos mensuales.</p>
+        <div class="carousel">
+            <input type="radio" name="carousel" id="event1" checked>
+            <input type="radio" name="carousel" id="event2">
+            <input type="radio" name="carousel" id="event3">
+            <div class="carousel-wrapper">
+                <div class="carousel-item">
+                    <img src="imagenes/Evento1.png" alt="Evento 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/Evento2.png" alt="Evento 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/Evento3.png" alt="Evento 3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 RecycleXpert. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
